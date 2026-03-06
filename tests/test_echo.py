@@ -67,4 +67,3 @@ def test_patch_request(base_url):
     # Проверка содержимого ответа
     response_data = response.json()
     assert response_data["json"] == patch_data, f"Response data does not match sent data."
-#
