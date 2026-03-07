@@ -40,7 +40,7 @@ def test_put_request(base_url):
 
     #Проверка наличия обновленных данных в ответе
     json_response = response.json()
-    assert json_response["json"] == data
+    assert json_respons["json"] == data
 
 #DELETE запрос
 def test_delete_request(base_url):
